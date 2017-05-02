@@ -44,358 +44,464 @@
 			<div class="slides">
 				<section>
 					<h2>Versionamento de código e integração continua</h1>
-						<h3>The HTML Presentation Framework</h3>
+
 						<p>
-						<small>por <a href="">Ahron Henrique Helfenstein</a></small>
+							<small>por <a href="">Ahron Henrique Helfenstein</a></small>
 						</p>
 					</section>
 
-					<section>
-						<img src="images/you-said.jpg"/>
+					<section class="me" data-transition="zoom">
+						<h2>Who is that guy?</h2>
+						<ul>
+							<li>Ahron Henrique Helfenstein</li>						
+							<li>Formado em Sistemas para Internet - Feevale</li>
+							<li>Software Developer at CWI Software</li>
+							<li>Desenvolvedor Java a 5 anos</li>				
+						</ul>
 					</section>
-
-
-
-					<section>
-						<h1>Tell me, who you are?</h1>
-					</section>
-
-
-
-
-					<section>
-						<h2>Versionamento de codigo</h2>
-						<img src="images/hmm.jpg"/>
-					</section>
-
-					<!-- Example of nested vertical slides -->
-					<section>
-						<section>
-							<h2>Vertical Slides</h2>
-							<p>Slides can be nested inside of each other.</p>
-							<p>Use the <em>Space</em> key to navigate through all slides.</p>
-							<br>
-							<a href="#" class="navigate-down">
-								<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-							</a>
+					<section  data-transition="zoom">
+						<img src="images/LOGO-CWI-PADRA~O-HORIZONTAL-CLARO.png" style="border: 0;box-shadow: none;"/>
+						<div>
+							<h5><a href="https://cwi.com.br/Oportunidades">Oportunidades</a></h5>
+							<h5><a href="https://cwi.com.br/Empresa/Crescer">Projeto Crescer</a></h5>
 						</section>
 						<section>
-							<h2>Basement Level 1</h2>
-							<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+
+							<img src="images/we-want-you.jpg"/>
+						</section>
+
+						<section>
+							<img class="img-large" src="images/you-said.jpg"/>
 						</section>
 						<section>
-							<h2>Basement Level 2</h2>
-							<p>That's it, time to go back up.</p>
-							<br>
-							<a href="#/2">
-								<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-							</a>
+							<h1>Tell me, who you are?</h1>
 						</section>
-					</section>
-
-					<section>
-						<h2>Slides</h2>
-						<p>
-							Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-						</p>
-					</section>
-
-					<section>
-						<h2>Point of View</h2>
-						<p>
-							Press <strong>ESC</strong> to enter the slide overview.
-						</p>
-						<p>
-							Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-						</p>
-					</section>
-
-					<section>
-						<h2>Touch Optimized</h2>
-						<p>
-							Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-						</p>
-					</section>
-
-					<section data-markdown>
-						<script type="text/template">
-							## Markdown support
-
-							Write content using inline or external Markdown.
-							Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-							```
-							<section data-markdown>
-								## Markdown support
-
-								Write content using inline or external Markdown.
-								Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						<section>
+							<section>
+								<h2>Versionamento de código</h2>								
 							</section>
-							```
-						</script>
-					</section>
+							<section>
+								<h4>Registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas</h4>	
+								<h2 class="fragment">Mas como?</h2>							
+								<h2 class="fragment">Com software :)</h2>							
+							</section>
+							<section>
+								<h2>SNV</h2>
+								<h2>Mercurial</h2>
+								<h2>GIT</h2>
+								<h2>CSV</h2>
+								<h2 class="fragment">E muitos outros...</h2>
+							</section>
+							<section>
+								<img src="images/hmm.jpg">
+								<h3>Se há tantos qual usar?</h3>
+							</section>
+						</section>
 
-					<section>
-						<section id="fragments">
-							<h2>Fragments</h2>
-							<p>Hit the next arrow...</p>
-							<p class="fragment">... to step through ...</p>
-							<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
+						<section>
+							<section>
+								<h3>Podemos começar com este...</h3>
+								<img style="background-color: #fff" src="images/git-logo.png"/>
+							</section>
+							<section>
+								<h4>Rápido e de Design simples</h4>
+								<h4>Robusto, lida muito bem bom grandes projetos</h4>
+								<h4>Criado em 2005 por <span class="fragment highlight-red">Linus Torvalds</span></h4>
+							</section>
+							<section>
+								<h4>Criador do Linux</h4>
+								<img  src="images/linux.jpg">
+							</section>
+							<section>
+								<p>Surgiu após o fim da parceria da comunidade com o BitKeeper </p>
+								<p>Utilizaram lições aaprendidas</p>
+								<p>Desde 2005 seu mantenedor é Junio Hamano</p>
+								<p>Sogtware livre distribuido sob termos da GNU General Public License</p>
+							</section>
+							<section>
+								<img src="images/batman-thinking.gif">
+								<h4>Mas como funciona?</h4>
+							</section>
+							<section>
+								<img src="images/git-works.png"/>
+							</section>
 
-							<aside class="notes">
-								This slide has fragments which are also stepped through in the notes window.
-							</aside>
+							<section>
+								<p>git init</p>
+								<p>git status</p>
+								<p>git add arquivo  |  git add .</p>
+								<p>git checkout branch</p>
+								<p>git merge branch</p>
+								<p>git commit -m "mensagem"</p>
+								<p>git push</p>
+								<p>git pull</p>
+							</section>
+
+							<section>
+								<img  src="images/git-example/1.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/2.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/3.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/5.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/6.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/7.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/8.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/9.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/10.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/11.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/12.png" />
+							</section>
+							<section>
+								<img src="images/ops.gif" />
+								<h3>ops!!!</h3>
+							</section>
+						</section>
+						
+						<section>						
+							<section>
+								<h2>Vamos falar um pouco sobre repositorios</h2>
+								<h4 class="fragment">Precisamos salvar nossos arquivos em algum lugar, certo?</h4>
+							</section>
+							<section>
+								<img src="images/pendrive.png"/>
+							</section>
+							<section>
+								<img src="images/drive.png"/>
+							</section>
+							<section>
+								<img  class="img-large" src="images/idontthingso.gif"/>
+							</section>
+
+							<section>
+								<h2>Exitem diversos resitórios git</h2>
+								<h4 class="fragment">Mar eles não servem apenas para guardar nossós códigos...</h4>
+							</section>
+							<section>
+								<ul>
+									<li>Permitem fácil visualização dos dirétórios</li>
+									<li>Fácil compartilhamento entre comunidade ou organização</li>
+									<li>Interface simples, exibindo histórico e arvore de commits e branchs</li>
+									<li>Receber merge/pull requests(SPOILER)</li>
+									<li>Criar issues(SPOILER)</li>
+								</ul>
+							</section>
+							<section data-background="#dddddd">
+								<img src="images/github-logo.png">
+							</section>
+							<section data-background-transition="zoom" data-background="#dddddd">
+								<img src="images/bitbucket-logo.png">
+							</section>
+							<section data-background-transition="zoom" data-background="#dddddd">
+								<img src="images/gitlab-logo.svg">
+							</section>
+							<section>
+								<h3>Nobody is perfect</h3>
+								<img src="images/gitlab-twitter.jpg"/>
+								<h4><a target="_blank" href="https://www.infoq.com/news/2017/02/gitlab-outage-postmortem">Explicação</a></h4>
+							</section>
+							<section>
+								<h2>Agora podemos terminar o que começamos...</h2>
+							</section>
+							<section>
+								<img  src="images/git-example/13.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/14.png" />
+							</section>
+							<section>
+								<img  src="images/git-example/15.png" />
+							</section>
+
+						</section>
+
+
+						<section>
+							<section>
+								<h2>Code Review</h2>
+								<h4>Prática que consiste em analisar o código, prevendo assim erros, verificando a padronização e code smells </h4>
+							</section>
+							<section>
+								<ul>
+									<li>Over-the-shoulder</li>
+									<li>Email pass-around</li>
+									<li>Pair programming </li>
+									<li><span class="fragment highlight-red">Tool-assisted code review</span></li>
+								</ul>
+							</section>
+							<section>
+								<h4>Então, porque não usar um pull/merge request para isso?</h4>
+								<img src="images/thinking.jpg"/>
+							</section>
+							<section>
+								<img src="images/code-review/1.png"/>
+							</section>
+							<section>
+								<img src="images/code-review/2.png"/>
+							</section>
+							<section>
+								<img src="images/code-review/3.png"/>
+							</section>
+							<section>
+								<h4>Vamos usar isso...</h4>
+								<h4 class="fragment">Para evitar isso</h4>
+								<img class="fragment" src="images/extreme-fight.gif">
+							</section>
 						</section>
 						<section>
-							<h2>Fragment Styles</h2>
-							<p>There's different types of fragments, like:</p>
-							<p class="fragment grow">grow</p>
-							<p class="fragment shrink">shrink</p>
-							<p class="fragment fade-out">fade-out</p>
-							<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-							<p class="fragment current-visible">current-visible</p>
-							<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+							<section>
+								<h2>Vamos criar umas tarefinhas?</h2>
+								<h4 class="fragment">Podemos fazer no nosso repositório</h4>
+							</section>
+							<section>
+								<img src="images/issues/1.png"/>
+							</section>
+							<section>
+								<img src="images/issues/2.png"/>
+							</section>
+							<section>
+								<img src="images/issues/3.png"/>
+							</section>
 						</section>
-					</section>
+						<section>
+							<section>
+								<h2>Tem mais, muito mais recursos!</h2>
+							</section>
+							<section>
+								<h2>Não é só código!</h2>
+								<img src="images/functionalities-repo.png"/>
+							</section>
+							<section>
+								<h3>Explorem</h3>
+								<h3>Brinquem</h3>
+								<h3>Divirtam-se</h3>
+							</section>
+						</section>
+						<section>
+							<section>
+								<h2>Só mais uma dica sobre versionamento...</h2>
+							</section>
+							<section>
+								<h4>Existem diversos softwares que nos auxiliam a trabalhar com versionamento</h4>
+								<h4 class="fragment">Destaco alguns..</h4>
+							</section>
+							<section data-background-transition="zoom" data-background="#dddddd">
+								<img src="images/sourcetree-logo.png"/>
+							</section>
 
-					<section id="transitions">
-						<h2>Transition Styles</h2>
-						<p>
-							You can select from different transitions, like: <br>
-							<a href="?transition=none#/transitions">None</a> -
-							<a href="?transition=fade#/transitions">Fade</a> -
-							<a href="?transition=slide#/transitions">Slide</a> -
-							<a href="?transition=convex#/transitions">Convex</a> -
-							<a href="?transition=concave#/transitions">Concave</a> -
-							<a href="?transition=zoom#/transitions">Zoom</a>
-						</p>
-					</section>
+							<section data-background-transition="zoom" data-background="">
+								<img src="images/gitkrakenlogo.png"/>
+							</section>
+							<section data-background-transition="zoom" data-background="">
+								<img src="images/gitkrakenexample.png"/>
+							</section>
+							<section data-background-transition="zoom" data-background="">
+								<img src="images/youresaying.jpg"/>
+							</section>	
+							<section >
+								<h2>Veja bem...</h2>
+								<h4>Ferramentas são ótimas, eu mesmo utilizo, mas aconselho a aprender esses comandos básicos do git </h4>
+							</section>
+						</section>
+						<section>
+							<h4>Já acabou Ahron?</h4>
+							<img src="images/its-over.gif"/>
+						</section>
+						<section>
+							<section>
+								<h2>Integração continua</h2>
+							</section>
+							<section>
+								<h4>Integração Contínua é uma prática de desenvolvimento de software onde os membros de uma equipe integram seu código frequentemente. Cada integração é verificada por <span class="fragment highlight-red">meio de uma compilação</span> e <span class="fragment highlight-red">testes automatizados</span> para detectar erros de integração <span class="fragment highlight-red">o mais rápido possível</span>. Integração Contínua assume um alto nível de testes automatizados.</h4>
+								<p>
+									<small>Martin Fowler</small>
+								</p>
+							</section>
+							<section>
+								<h2>Vou mostrar, como mudou minha vida...</h2>
+							</section>
+							<section>
+								<h4>Imagine, se na sua organização, você precisa fazer o deploy, manualmente do ambiente de homologação</h4>
+								<h3 class="fragment">Como eu fazia...</h3>
+							</section>
+							<section>
+								<img src="images/ci/1.png"/>
+							</section>
+							<section>
+								<h4>Eu voltava a trabalhar...</h4>
+								<h4 class="fragment">Nesse meio tempo, alguem perguntava.</h4>
+								<h4 class="fragment">AHRON, PUBLICOU?</h4>
+							</section>
 
-					<section id="themes">
-						<h2>Themes</h2>
-						<p>
-							reveal.js comes with a few themes built in: <br>
-							<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-							<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-						</p>
-					</section>
+							<section>
+								<h2>Quando eu ia ver o resultado do meu build</h2>
+							</section>
+							<section>
+								<img src="images/ci/2.png"/>
+							</section>
+							<section>
+								<img src="images/surprise.gif"/>
+							</section>
+							<section>
+								<h2>E o tempo perdido?</h2>
+							</section>
+							<section>
+								<h2>Seguia, corrigia, e ia publicar a aplicação depois de corrigir</h2>
+							</section>
+							<section>
+								<img src="images/glassfish.jpg"/>
+							</section>		
+							<section>
+								<h4>Surgia a pergunta...</h4>
+								<h2 class="fragment">Publicou?</h2>
+								<h2 class="fragment">SIM</h2>
+								<h2 class="fragment">Funcionou?</h2>
+							</section>
+							<section>
+								<img src="images/hell.jpg"/>
+							</section>		
 
-					<section>
-						<section data-background="#dddddd">
-							<h2>Slide Backgrounds</h2>
+							<section>
+								<h3>Até que um dia disseram, "Ahron, você sabia que está perdendo tempo?"</h3>
+							</section>
+							<section>
+								<img src="images/to.gif"/>
+							</section>
+							<section>
+								<h3>"Sim, está, você pode usar integração continua para automatizar esse processo!"</h3>
+							</section>
+
+							<section>
+								<img src="images/sabianao.gif"/>
+							</section>
+
+							<section>
+								<h4>Com integrão continua podemos resolver problema deste tipo facilmente, entre outros!</h4>
+							</section>	
+							<section>
+								<h3>Como podemos resolver?</h3>
+								<h4 class="fragment">Com algumas ferramentas também!</h4>
+							</section>	
+							<section>
+								<p>Alguns examplos são..</p>
+								<ul>
+									<li>Travis</li>
+									<li ><span class="fragment highlight-red">Jenkins</span></li>
+									<li>GitLab CI</li>
+								</ul>
+							</section>	
+						</section>
+						<section>
+							<section>
+								<img src="images/jenkins-logo.png">
+								<h4 class="fragment">Qual é desse mordomo?</h4>
+							</section>
+							<section>
+								<h4>Software de automação em JAVA originalmente desenvolvido como projeto Hudson, que surgiu em  2005 lançado pela Sun</h4>
+							</section>
+							<section>
+								<h4>Em 2010, surgiu uma issue na comunidade, em relação à infraestrutura. Após de diversas tratavivas, a Oracle requeriu o nome "Hudson", e como resultado surgiu o Jenkins</h4>
+							</section>
+							<section>
+								<h2>LETS DO IT</h2>
+							</section>
+							<section>
+								<img src="images/jenkins/1.png">
+							</section>
+							<section>
+								<img src="images/jenkins/2.png">
+							</section>
+							<section>
+								<img src="images/jenkins/3.png">
+							</section>
+							<section>
+								<img src="images/jenkins/4.png">
+							</section>
+							<section>
+								<img src="images/jenkins/5.png">
+							</section>
+							<section>
+								<h4>Ultima dica, o Slack</h4>
+								<img style="background-color: #fff" src="images/slack.png"/>
+							</section>
+							<section>
+								<h4>Facil de integrar com Jenkins, Repositórios git, etc</h4>
+								<h4>Interface simples, com aplicativos para todas as plataformas</h4>
+							</section>
+							<section>
+								<img src="images/jenkins-slack.png">
+							</section>
+
+							<section>
+								<h2>Voltando para o jenkins</h2>
+							</section>
+							<section>
+								<img src="images/jenkins/6.png">
+							</section>
+							<section>
+								<img src="images/jenkins/7.png">
+							</section>
+							<section>
+								<h4>Agora sim!!!</h4>
+								<img src="images/dicaprio.gif">
+							</section>
+						</section>
+						<section>
+							<h2>Apanhadão geral</h2>
+						</section>
+						<section>
+							<h4>Git</h4>
+							<h4>Repositórios</h4>
+							<h4>Code Review</h4>
+							<h4>Integração continua</h4>
+							<h4>jenkins</h4>
+							<h4>Slack</h4>
+						</section>
+						<section>
+							<img src="images/thatsallfolsk.gif"/>
+						</section>
+						<section>
+							<p>Obrigado!</p>
+							<h4>Dúvidas?</h4>
 							<p>
-								Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+								<a href="https://www.facebook.com/ahron.helfenstein">facebook.com/ahron.helfenstein</a
 							</p>
-							<a href="#" class="navigate-down">
-								<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-							</a>
+							<p>
+								 <a href="https://twitter.com/a_helfenstein">@a_helfenstein</a>
+							</p>
+							<p>
+								<a href="mailto:ahron.helfenstein@gmail.com">ahron.helfenstein@gmail.com</a>
+							</p>
 						</section>
-						<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-							<h2>Image Backgrounds</h2>
-							<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
-						</section>
-						<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-							<h2>Tiled Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-						</section>
-						<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-							<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-								<h2>Video Backgrounds</h2>
-								<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-							</div>
-						</section>
-						<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-							<h2>... and GIFs!</h2>
-						</section>
-					</section>
 
-					<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-						<h2>Background Transitions</h2>
-						<p>
-							Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-						</p>
-						<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-					</section>
 
-					<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-						<h2>Background Transitions</h2>
-						<p>
-							You can override background transitions per-slide.
-						</p>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-					</section>
 
-					<section>
-						<h2>Pretty Code</h2>
-						<pre><code class="hljs" data-trim contenteditable>
-							function linkify( selector ) {
-							if( supports3DTransforms ) {
+					</div>
 
-							var nodes = document.querySelectorAll( selector );
+				</div>
 
-							for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-							var node = nodes[i];
+				<script src="lib/js/head.min.js"></script>
+				<script src="js/reveal.js"></script>
 
-							if( !node.className ) {
-							node.className += ' roll';
-						}
-					}
-				}
-			}
-		</code></pre>
-		<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-	</section>
-
-	<section>
-		<h2>Marvelous List</h2>
-		<ul>
-			<li>No order here</li>
-			<li>Or here</li>
-			<li>Or here</li>
-			<li>Or here</li>
-		</ul>
-	</section>
-
-	<section>
-		<h2>Fantastic Ordered List</h2>
-		<ol>
-			<li>One is smaller than...</li>
-			<li>Two is smaller than...</li>
-			<li>Three!</li>
-		</ol>
-	</section>
-
-	<section>
-		<h2>Tabular Tables</h2>
-		<table>
-			<thead>
-				<tr>
-					<th>Item</th>
-					<th>Value</th>
-					<th>Quantity</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Apples</td>
-					<td>$1</td>
-					<td>7</td>
-				</tr>
-				<tr>
-					<td>Lemonade</td>
-					<td>$2</td>
-					<td>18</td>
-				</tr>
-				<tr>
-					<td>Bread</td>
-					<td>$3</td>
-					<td>2</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-
-	<section>
-		<h2>Clever Quotes</h2>
-		<p>
-			These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-			&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-		</p>
-		<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-			&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-			reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-		</blockquote>
-	</section>
-
-	<section>
-		<h2>Intergalactic Interconnections</h2>
-		<p>
-			You can link between slides internally,
-			<a href="#/2/3">like this</a>.
-		</p>
-	</section>
-
-	<section>
-		<h2>Speaker View</h2>
-		<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-		<p>Press the <em>S</em> key to try it out.</p>
-
-		<aside class="notes">
-			Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-		</aside>
-	</section>
-
-	<section>
-		<h2>Export to PDF</h2>
-		<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-		<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-	</section>
-
-	<section>
-		<h2>Global State</h2>
-		<p>
-			Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-			will be added as a class to the document element when the slide is open. This lets you
-			apply broader style changes, like switching the page background.
-		</p>
-	</section>
-
-	<section data-state="customevent">
-		<h2>State Events</h2>
-		<p>
-			Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-		</p>
-		<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-			Reveal.addEventListener( 'customevent', function() {
-			console.log( '"customevent" has fired' );
-		} );
-	</code></pre>
-</section>
-
-<section>
-	<h2>Take a Moment</h2>
-	<p>
-		Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-	</p>
-</section>
-
-<section>
-	<h2>Much more</h2>
-	<ul>
-		<li>Right-to-left support</li>
-		<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-		<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-		<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-		<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-	</ul>
-</section>
-
-<section style="text-align: left;">
-	<h1>THE END</h1>
-	<p>
-		- <a href="http://slides.com">Try the online editor</a> <br>
-		- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-	</p>
-</section>
-
-</div>
-
-</div>
-
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.js"></script>
-
-<script>
+				<script>
 
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({

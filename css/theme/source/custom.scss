@@ -1,3 +1,15 @@
-img{
-	min-width: 500px;
+.img-large{
+	min-width: 900px;
+}
+
+.width-50{
+	width: 50%;
+	overflow: hidden;
+	 display: table;
+}
+
+.image-console{
+	min-height: 650px;
+	min-width: 800px !important;
+	
 }
